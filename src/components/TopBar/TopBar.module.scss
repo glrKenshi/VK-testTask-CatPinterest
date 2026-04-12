@@ -1,0 +1,30 @@
+.header {
+    height: 60px;
+    background-color: #2196F3;
+    box-shadow: 0px 8px 5px -1px rgba(34, 60, 80, 0.3);
+    margin-bottom: 50px;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+}
+
+.navItem {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease;
+    color: #ffffffb3;
+
+    &:hover {
+        background-color: #1E88E5;
+        color: #ffffff;
+    }
+}
+
+.navItemActive {
+    background-color: #1E88E5;
+    color: #ffffff;
+}
